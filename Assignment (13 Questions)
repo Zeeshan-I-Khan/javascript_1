@@ -1,0 +1,54 @@
+Q1. Write a function to get the sum of n natural numbers.
+Solution:
+function sum_of_natural(n)
+{
+let sum=0;
+for(var i=1;i<=n;i++)
+{
+sum=sum+i;
+}
+console.log("The Sum of Natural Number:"+ sum);
+}
+-------------------------------------------------------------------------------------------------------
+Q2. Write the function to check if the number is even or not by using only if else statement.
+Solution:
+function check_even(n)
+{
+if(n%2==0)
+{
+console.log("Number is Even");
+}
+else
+{
+console.log("Number is Odd");
+}}
+-------------------------------------------------------------------------------------------------------
+Q3. Write a function it check if the number is prime or not.
+Solution:
+function check_prime(n)
+{
+let flag=false;
+if(n==1||n==0)
+console.log("Number is Not Prime");
+else
+{
+for(var i=2;i<=n/2;i++)
+{
+if(n%i==0)
+{
+flag=true;
+break;
+}
+}
+if(flag)
+{
+   console.log("Number is Not Prime");
+}
+else
+{
+console.log("Number is Prime");
+}
+}}
+-------------------------------------------------------------------------------------------------------
+Q4. Write a function ‘weekDay’ that takes n as the input and returns the day associated to it. If n<1 or n>7 then return invalid input. Using switch case only
+
