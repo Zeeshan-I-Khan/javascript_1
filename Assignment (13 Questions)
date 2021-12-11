@@ -111,7 +111,7 @@ function weekday(n)
         console.log("Invalid Input");
     }
     }
-    -------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 Q6. Write a function ‘weekDay’ that takes n as the input and returns the day associated to it. If n<1 or n>7 then return invalid input. Using ternary operator only.
 Solution:
 function weekday(n)
@@ -183,5 +183,20 @@ function factorial(n)
 }
 -------------------------------------------------------------------------------------------------------
 Q11. WAF to reverse an array.
+Solution:
+var array1=[];
+function reverse(array1)
+{
+    var array2=[];
+    var length=array1.length;
+    
+    for(var i=0;i<length;i++)
+    {
+        array2[i]=array1.pop();
+    }
+    return array2;
+}
+-------------------------------------------------------------------------------------------------------
+Q12. WAF to reverse a string.
 Solution:
 
