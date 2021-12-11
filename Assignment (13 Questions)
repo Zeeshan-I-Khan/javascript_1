@@ -170,4 +170,18 @@ function minelement()
     return(console.log("Min Element in the array "+min));
 }
 -------------------------------------------------------------------------------------------------------
+Q10. WAF to find the factorial of n 
+Solution:
+function factorial(n)
+{
+    var fact=1;
+    for(var i=n;i>=1;i--)
+    {
+        fact=fact*i;
+    }
+    return(console.log("Factorial of "+n+" is "+fact));
+}
+-------------------------------------------------------------------------------------------------------
+Q11. WAF to reverse an array.
+Solution:
 
