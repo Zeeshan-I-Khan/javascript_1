@@ -155,4 +155,19 @@ function maxelement()
 -------------------------------------------------------------------------------------------------------
 Q9. WAF to find the min in the array?
 Solution:
+function minelement()
+{
+    var array=[1,2,3,4,5,0.6];
+    var length=array.length;
+    var min=array[0];
+    for(var i=1;i<length;i++)
+    {
+        if(array[i]<min)
+        {
+            min=array[i];
+        }
+    }
+    return(console.log("Min Element in the array "+min));
+}
+-------------------------------------------------------------------------------------------------------
 
