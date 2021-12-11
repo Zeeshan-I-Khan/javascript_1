@@ -199,4 +199,16 @@ function reverse(array1)
 -------------------------------------------------------------------------------------------------------
 Q12. WAF to reverse a string.
 Solution:
+function strreverse(string)
+{
+    var result="";
+    for(var i=string.length-1;i>=0;i--)
+    {
+        result=result+string[i];
+    }
+    return result;
+}
+-------------------------------------------------------------------------------------------------------
+Q13. WAF to check if the number is a palindrome or not.
+Solution:
 
