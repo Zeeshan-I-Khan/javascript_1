@@ -114,3 +114,9 @@ function weekday(n)
     -------------------------------------------------------------------------------------------------------
 Q6. Write a function ‘weekDay’ that takes n as the input and returns the day associated to it. If n<1 or n>7 then return invalid input. Using ternary operator only.
 Solution:
+function weekday(n)
+{
+return(n==1?console.log("Monday"):(n==2?console.log("Tuesday"):(n==3?console.log("Wednesday"):(n==4?console.log("Thursday"):(n==5?console.log("Friday"):(n==6?console.log("Saturday"):(n==7?console.log("Sunday"):console.log("Invalid Input"))))))));
+}
+-------------------------------------------------------------------------------------------------------
+
