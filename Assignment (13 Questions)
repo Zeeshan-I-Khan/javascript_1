@@ -74,3 +74,43 @@ function weekday(n)
     }
 }
 -------------------------------------------------------------------------------------------------------
+Q5. Write a function ‘weekDay’ that takes n as the input and returns the day associated to it. If n<1 or n>7 then return invalid input. Using If Else only.
+Solution:
+function weekday(n)
+{
+    if(n==1)
+    {
+        console.log("Monday");
+    }
+    else if(n==2)
+    {
+        console.log("Tuesday");
+    }
+    else if(n==3)
+    {
+        console.log("Wednesday");
+    }
+    else if(n==4)
+    {
+        console.log("Thursday");
+    }
+    else if(n==5)
+    {
+        console.log("Friday");
+    }
+    else if(n==6)
+    {
+        console.log("Saturday");
+    }
+    else if(n==7)
+    {
+        console.log("Sunday");
+    }
+    else
+    {
+        console.log("Invalid Input");
+    }
+    }
+    -------------------------------------------------------------------------------------------------------
+Q6. Write a function ‘weekDay’ that takes n as the input and returns the day associated to it. If n<1 or n>7 then return invalid input. Using ternary operator only.
+Solution:
